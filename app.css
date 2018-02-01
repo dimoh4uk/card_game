@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#gamers:before, #gamers:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.gamer {
+    display: inline-block;
+    border: 1px solid;
+    margin: 0 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.gamer .name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#gamers {
+    text-align: center;
+}
+
+.gamer .count {
+    margin: 20px 0;
+}
+
+.card {
+    margin: 40px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#events {
+    font-size: 20px;
+}
+
+#trump {
+    font-size: 20px;
+    text-align: center;
+    color: chocolate;
+    margin: 0 0 30px;
+}
